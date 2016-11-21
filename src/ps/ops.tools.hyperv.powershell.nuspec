@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Ops.Tools.HyperV.Powershell</id>
+        <version>$VersionSemantic$</version>
+        <authors>Ops-Resource</authors>
+        <owners>Ops-Resource</owners>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>$CompanyUrl$</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>
+            $ProductDescription$
+        </description>
+        <dependencies>
+            $Dependencies$
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="$DirSrc$\ps\*.ps1" target="scripts" />
+    </files>
+</package>
